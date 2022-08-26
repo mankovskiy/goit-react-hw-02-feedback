@@ -12,4 +12,5 @@ export const OptionsButton = styled.button`
   border: ${p => p.theme.borders.normal};
   border-radius: ${p => p.theme.radii.normal};
   background: ${p => p.theme.colors.muted};
+  cursor: pointer;
 `;
