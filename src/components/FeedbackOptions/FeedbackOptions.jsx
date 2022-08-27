@@ -4,7 +4,7 @@ import { OptionsButton } from './FeedbackOptions.styled';
 export const FeedbackOptions = props => {
   return props.options.map(option => {
     return (
-      //   <Box mt={20} as="div" key={option}>
+      // <Box mt={20} as="div">
       <OptionsButton
         type="button"
         key={option}
@@ -13,7 +13,7 @@ export const FeedbackOptions = props => {
       >
         {option}
       </OptionsButton>
-      //   </Box>
+      // </Box>
     );
   });
   // (

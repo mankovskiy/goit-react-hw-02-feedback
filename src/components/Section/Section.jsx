@@ -1,9 +1,10 @@
+import { Title } from './Section.styled';
 import { Box } from 'components/Box/Box';
 
-export const Section = ({ onClick, title, children }) => {
+export const Section = ({ title, children }) => {
   return (
     <Box as="section">
-      {title && <h2>{title}</h2>}
+      {title && <Title>{title}</Title>}
       {children}
     </Box>
   );
