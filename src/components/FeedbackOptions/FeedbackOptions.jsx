@@ -1,4 +1,4 @@
-import { OptionsButton } from '../FeedbackOptions/FeedbackOptions.styled';
+import { OptionsButton } from './FeedbackOptions.styled';
 // import { Box } from '../Box/Box';
 
 export const FeedbackOptions = props => {
